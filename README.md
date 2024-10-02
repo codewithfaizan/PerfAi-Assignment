@@ -67,18 +67,21 @@ npm run dev
 <h4>Public</h4>
 
 <ul> 
-<li>POST /api/auth/signup: create a new user account.</li>
-<li>POST /api/auth/login: log in to an existing user account and receive an access token.</li>
+<li>POST /auth/signup   : create a new user account.</li>
+<li>POST /auth/login    : log in to an existing user account and receive an access token.</li>
+<li>GET /auth/profile  : Profile. </li>
 </ul>
-<h4>Notes  Endpoints</h4>
+<h4>Property  Endpoints</h4>
 <ul>
-<li>GET /api/notes: get a list of all notes for the authenticated user.</li>
-<li>GET /api/notes/:id: get a note by ID for the authenticated user.</li>
-<li>POST /api/notes: create a new note for the authenticated user.</li>
-<li>PUT /api/notes/:id: update an existing note by ID for the authenticated user.</li>
-<li>DELETE /api/notes/:id: delete a note by ID for the authenticated user.</li>
-<li>POST /api/notes/:id/share: share a note with another user for the authenticated user.</li>
-<li>GET /api/search?q=:query: search for notes based on keywords for the authenticated user.</li>
+<li>POST /auth/property/add    : create a property for authenticated user.</li>
+<li>GET /auth/property/all     : get all properties authenticated user.</li>
+<li>GET /auth/property/:id     : get a property by id.</li>
+<li>DELETE /auth/property/:id  : delete a property by id.</li>
+
+  
+<li>POST /auth/task/add        : Add a task for the propert object.</li>
+<li>GET /auth/task/getall      : get all tasks list</li>
+<li>PATCH auth/task/update/:id : Update the status.</li>
 </ul>
 
 ## Npm packages used and their usage
