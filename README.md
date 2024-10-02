@@ -47,6 +47,8 @@ Start the server
 ```bash
 npm run dev
 ```
+
+
 ## Features
 ### Authentication
 - Session-based authentication is a stateful authentication technique where we use sessions to keep track of the authenticated user.
