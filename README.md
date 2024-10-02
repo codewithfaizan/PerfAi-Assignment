@@ -1,8 +1,6 @@
 # PerfAi-Assignment
 Waqf Property Task Tracker
 
-<h1>Waqf Property Task Tracker</h1>
-
 ## Project Overview
 
 A simple application to help Waqf property managers track basic tasks
